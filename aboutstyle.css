@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: #F4EEA6;
+    background-color: #c1cdcd;
 }
 
 p {
@@ -23,7 +23,7 @@ nav {
     top: 0px;
     margin-top: 28px;
     font-size: 18px;
-    background-color: #F4EEA6;
+    background-color:#c1cdcd;
     border-bottom: white solid 5px;
     border-top: white solid 5px;
 }
@@ -62,7 +62,7 @@ a:hover{
     z-index: 10;
     top: 0px;
     margin-top: 10px;
-    background-color: #F4EEA6;
+    background-color:#c1cdcd;
     margin-left: 90px;
     margin-right: 3000px;
 }
