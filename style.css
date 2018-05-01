@@ -91,6 +91,21 @@ a:hover{
 
 }
 
+.box {
+    width: 2000px;
+    height: 150px;
+}
+
+.pink {
+    background: #F4CEDF;
+}
+
+#bottom {
+    position: fixed;
+    bottom: 0px;
+    z-index: -10;
+}
+
 
 /*
 #portrait {
