@@ -1,9 +1,9 @@
 body {
     margin: 0px;
-    background-color: #92AD9D;
+    background-color: #c1cdcd;
 }
 
-p {
+h1 {
     position: fixed;
     width: 100%;
     top: 0;
@@ -23,7 +23,7 @@ nav {
     top: 0px;
     margin-top: 28px;
     font-size: 18px;
-    background-color:#92AD9D;
+    background-color:#c1cdcd;
     border-bottom: white solid 5px;
     border-top: white solid 5px;
 }
@@ -62,7 +62,42 @@ a:hover{
     z-index: 10;
     top: 0px;
     margin-top: 10px;
-    background-color:#92AD9D;
+    background-color:#c1cdcd;
     margin-left: 90px;
     margin-right: 3000px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    position: relative;
+    margin-top: 215px;
+}
+
+#intro {
+    border: solid white 5px;
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.box {
+    width: 2000px;
+    height: 150px;
+}
+
+.pink {
+    background: #F4CEDF;
+}
+
+#bottom {
+    position: fixed;
+    bottom: 0px;
+    z-index: -10;
 }
