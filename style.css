@@ -67,6 +67,16 @@ a:hover{
     margin-right: 3000px;
 }
 
+/*
+h3 {
+    margin-top: 200px;
+    position: absolute;
+    float: left;
+    left: 200px;
+
+}
+*/
+
 #header {
     position: absolute;
     margin-top: 300px;
@@ -81,14 +91,14 @@ a:hover{
     border: white dotted 15px;
 }
 
+
 #buttons {
     position: relative;
-    top: 800px;
+    top: 900px;
     display: flex;
     justify-content: space-around;
     margin-left: auto;
     padding: 0;
-
 }
 
 .box {
@@ -101,21 +111,8 @@ a:hover{
 }
 
 #bottom {
-    position: fixed;
-    bottom: 0px;
-    z-index: -10;
+    position: absolute;
+    top: 1000px;
+    z-index: 10;
 }
 
-
-/*
-#portrait {
-    display: flex;
-}
-
-#landscape {
-    display: flex;
-}
-
-#digital {
-    display: flex;
-}*/

@@ -88,8 +88,8 @@ a:hover{
 }
 
 #bottom {
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    top: 1500px;
     z-index: 10;
 }
 
@@ -106,16 +106,16 @@ a:hover{
     position: absolute;
     float: left;
     left: 200px;
-    top: 950px;
+    top: 700px;
     padding: 0;
-     z-index: 10;
+    z-index: 10;
 }
 
 #landscape {
     position: absolute;
     float: right;
-    right: 200px;
-    top: 600px;
+    right: 170px;
+    top: 400px;
     padding: 0;
     z-index: 10;
 }
@@ -123,8 +123,8 @@ a:hover{
 #humor {
     position: absolute;
     float: right;
-    right: 430px;
-    top: 950px;
+    right: 200px;
+    top: 700px;
     padding: 0;
     z-index: 10;
 }
@@ -134,6 +134,33 @@ a:hover{
     float: left;
     left: 200px;
     top: 350px;
+    padding: 0;
+/*    z-index: 10;*/
+}
+
+#image2 {
+    position: absolute;
+    float: right;
+    right: 200px;
+    top: 350px;
+    padding: 0;
+/*    z-index: 10;*/
+}
+
+#image3 {
+    position: absolute;
+    float: left;
+    left: 200px;
+    top: 950px;
+    padding: 0;
+    z-index: 10;
+}
+
+#image4 {
+    position: absolute;
+    float: right;
+    right: 200px;
+    top: 950px;
     padding: 0;
     z-index: 10;
 }
