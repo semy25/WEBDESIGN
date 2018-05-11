@@ -1,9 +1,9 @@
 body {
     margin: 0px;
-    background-color: #F9DCAC;
+    background-color: #F9D18A;
 }
 
-p {
+h1 {
     position: fixed;
     width: 100%;
     top: 0;
@@ -23,7 +23,7 @@ nav {
     top: 0px;
     margin-top: 28px;
     font-size: 18px;
-    background-color:#F9DCAC;
+    background-color:#F9D18A;
     border-bottom: white solid 5px;
     border-top: white solid 5px;
 }
@@ -62,7 +62,7 @@ a:hover{
     z-index: 10;
     top: 0px;
     margin-top: 10px;
-    background-color:#F9DCAC;
+    background-color:#F9D18A;
     margin-left: 90px;
     margin-right: 3000px;
 }
@@ -73,13 +73,40 @@ a:hover{
     margin-right: auto;
 }
 
+
 #header {
     position: relative;
     margin-top: 215px;
 }
 
 .box {
-    width: 100%;
+    width: 2000px;
+    height: 150px;
+}
+
+.grey {
+    background: #C7EAE4;
+}
+
+#top {
+    position: fixed;
+    top: 180px;
+    z-index: -10;
+}
+
+#intro {
+    border: solid white 5px;
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.box {
+    width: 2000px;
     height: 150px;
 }
 
@@ -89,79 +116,7 @@ a:hover{
 
 #bottom {
     position: absolute;
-    top: 1500px;
-    z-index: 10;
-}
-
-#portrait {
-    position: absolute;
-    float: left;
-    left: 200px;
-    top: 400px;
-    padding: 0;
-     z-index: 10;
-}
-
-#digital {
-    position: absolute;
-    float: left;
-    left: 200px;
-    top: 700px;
-    padding: 0;
-    z-index: 10;
-}
-
-#landscape {
-    position: absolute;
-    float: right;
-    right: 170px;
-    top: 400px;
-    padding: 0;
-    z-index: 10;
-}
-
-#humor {
-    position: absolute;
-    float: right;
-    right: 200px;
-    top: 700px;
-    padding: 0;
-    z-index: 10;
-}
-
-#image1 {
-    position: absolute;
-    float: left;
-    left: 200px;
-    top: 350px;
-    padding: 0;
-/*    z-index: 10;*/
-}
-
-#image2 {
-    position: absolute;
-    float: right;
-    right: 200px;
-    top: 350px;
-    padding: 0;
-/*    z-index: 10;*/
-}
-
-#image3 {
-    position: absolute;
-    float: left;
-    left: 200px;
-    top: 950px;
-    padding: 0;
-    z-index: 10;
-}
-
-#image4 {
-    position: absolute;
-    float: right;
-    right: 200px;
-    top: 950px;
-    padding: 0;
+    top: 1100px;
     z-index: 10;
 }
 
