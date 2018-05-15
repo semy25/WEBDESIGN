@@ -1,9 +1,21 @@
 body {
     margin: 0px;
-    background-color: #F9D18A;
+    background-color: #F4D8AB;
 }
 
 h1 {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 39px;
+    display: flex;
+    border-bottom: white solid 5px;
+    border-top: white solid 5px;
+    margin-top: 28px;
+    margin-right: 70px;
+}
+
+p {
     position: fixed;
     width: 100%;
     top: 0;
@@ -23,7 +35,7 @@ nav {
     top: 0px;
     margin-top: 28px;
     font-size: 18px;
-    background-color:#F9D18A;
+    background-color:#F4D8AB;
     border-bottom: white solid 5px;
     border-top: white solid 5px;
 }
@@ -62,7 +74,7 @@ a:hover{
     z-index: 10;
     top: 0px;
     margin-top: 10px;
-    background-color:#F9D18A;
+    background-color:#F4D8AB;
     margin-left: 90px;
     margin-right: 3000px;
 }
@@ -85,12 +97,32 @@ a:hover{
 }
 
 .grey {
-    background: #C7EAE4;
+    background: #D6E8E4;
 }
 
 #top {
     position: fixed;
     top: 180px;
+    z-index: -10;
+}
+
+#headerz {
+    position: relative;
+    margin-top: 215px;
+}
+
+.box {
+    width: 2000px;
+    height: 150px;
+}
+
+.grey {
+    background: #D6E8E4;
+}
+
+#topz {
+    position: fixed;
+    top: 480px;
     z-index: -10;
 }
 
