@@ -79,12 +79,12 @@ a:hover{
     margin-right: 3000px;
 }
 
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 
 #header {
     position: relative;
@@ -94,6 +94,7 @@ a:hover{
 .box {
     width: 2000px;
     height: 150px;
+    width: 100%;
 }
 
 .grey {
@@ -101,45 +102,27 @@ a:hover{
 }
 
 #top {
-    position: fixed;
-    top: 180px;
+    position: relative;
+    top: -107px;
     z-index: -10;
 }
 
 #headerz {
     position: relative;
-    margin-top: 215px;
+    margin-top: 915px;
+    top: -185px
 }
 
 .box {
     width: 2000px;
     height: 150px;
-}
-
-.grey {
-    background: #D6E8E4;
+    width: 100%;
 }
 
 #topz {
-    position: fixed;
-    top: 480px;
+    position: relative;
+    top: -300px;
     z-index: -10;
-}
-
-#intro {
-    border: solid white 5px;
-    margin: auto;
-    margin-top: 100px;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.box {
-    width: 2000px;
-    height: 150px;
 }
 
 .pink {
@@ -148,7 +131,33 @@ a:hover{
 
 #bottom {
     position: absolute;
-    top: 1100px;
+    top: 3000px;
     z-index: 10;
 }
 
+#portrait {
+    position: relative;
+    top: -1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    padding: 0;
+}
+
+#landscape {
+    position: relative;
+    top: -930px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    padding: 0;
+}
+
+#landscapesecond {
+    position: relative;
+    top: -850px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    padding: 0;
+}
