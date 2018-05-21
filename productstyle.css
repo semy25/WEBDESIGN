@@ -1,6 +1,18 @@
 body {
     margin: 0px;
-    background-color: #9AAFA3;
+    background-color: #A5CAD6;
+}
+
+h1 {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 39px;
+    display: flex;
+    border-bottom: white solid 5px;
+    border-top: white solid 5px;
+    margin-top: 28px;
+    margin-right: 70px;
 }
 
 p {
@@ -23,7 +35,7 @@ nav {
     top: 0px;
     margin-top: 28px;
     font-size: 18px;
-    background-color:#9AAFA3;
+    background-color:#A5CAD6;
     border-bottom: white solid 5px;
     border-top: white solid 5px;
 }
@@ -62,10 +74,11 @@ a:hover{
     z-index: 10;
     top: 0px;
     margin-top: 10px;
-    background-color:#9AAFA3;
+    background-color:#A5CAD6;
     margin-left: 90px;
     margin-right: 3000px;
 }
+
 
 .center {
     display: block;
@@ -79,8 +92,37 @@ a:hover{
 }
 
 .box {
-    width: 100%;
+    width: 2000px;
     height: 150px;
+    width: 100%;
+}
+
+.grey {
+    background: #EFE8A3;
+}
+
+#top {
+    position: relative;
+    top: -107px;
+    z-index: -10;
+}
+
+#headerz {
+    position: relative;
+    margin-top: 915px;
+    top: -185px
+}
+
+.box {
+    width: 2000px;
+    height: 150px;
+    width: 100%;
+}
+
+#topz {
+    position: relative;
+    top: -300px;
+    z-index: -10;
 }
 
 .pink {
@@ -89,78 +131,33 @@ a:hover{
 
 #bottom {
     position: absolute;
-    top: 1500px;
+    top: 3000px;
     z-index: 10;
 }
 
-#poster {
-    position: absolute;
-    float: left;
-    left: 200px;
-    top: 400px;
-    padding: 0;
-
-}
-
-#postcards {
-    position: absolute;
-    float: left;
-    left: 200px;
-    top: 700px;
+#portrait {
+    position: relative;
+    top: -1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
     padding: 0;
 }
 
-#cards {
-    position: absolute;
-    float: right;
-    right: 200px;
-    top: 400px;
+#landscape {
+    position: relative;
+    top: -930px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
     padding: 0;
 }
 
-#digitalart {
-    position: absolute;
-    float: right;
-    right: 200px;
-    top: 700px;
+#landscapesecond {
+    position: relative;
+    top: -850px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
     padding: 0;
-    z-index: 10;
 }
-
-#image1 {
-    position: absolute;
-    float: left;
-    left: 200px;
-    top: 350px;
-    padding: 0;
-/*    z-index: 10;*/
-}
-
-#image2 {
-    position: absolute;
-    float: right;
-    right: 200px;
-    top: 350px;
-    padding: 0;
-/*    z-index: 10;*/
-}
-
-#image3 {
-    position: absolute;
-    float: left;
-    left: 200px;
-    top: 950px;
-    padding: 0;
-    z-index: 10;
-}
-
-#image4 {
-    position: absolute;
-    float: right;
-    right: 200px;
-    top: 950px;
-    padding: 0;
-    z-index: 10;
-}
-
-

@@ -89,15 +89,15 @@ a:hover{
 }
 
 #top {
-    position: fixed;
-    top: 180px;
+    position: relative;
+    top: -110px;
     z-index: -10;
 }
 
 #intro {
     border: solid white 5px;
     margin: auto;
-    margin-top: 100px;
+    top: -100px;
     width: 50%;
     padding: 10px;
     text-align: center;
