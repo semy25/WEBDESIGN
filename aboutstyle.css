@@ -144,5 +144,14 @@ a:hover{
     z-index: 10;
 }
 
+#resume   {
+    position: relative;
+    padding: 50px;
+}
+
+#document {
+    margin-top: 200px;
+    border: white solid 10px;
+}
 
 
