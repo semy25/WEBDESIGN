@@ -102,6 +102,7 @@ a:hover{
 #top {
     position: relative;
     top: 150px;
+    width: 100%;
     z-index: -10;
 }
 
