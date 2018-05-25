@@ -70,7 +70,7 @@ a:hover{
 
 #banner {
     width: 100%;
-    margin-top: 200px;
+    margin-top: 250px;
 
 }
 
@@ -82,20 +82,41 @@ a:hover{
 
 #header {
     position: absolute;
-    margin-top: 300px;
-    margin-left: 350px;
+    margin-top: 120px;
+    margin-left: 150px;
     border: white dotted 15px;
     z-index: -10px;
 }
 
+#header {
+    width: 793.65px;
+    height: 560.3px;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+#header:hover {
+    background-color: orange;
+}
+
 #header2 {
     position: absolute;
-    margin-top: 200px;
+    margin-top: 40px;
     margin-left: 1000px;
     border: white dotted 15px;
     z-index: -10px;
 }
 
+#header2 {
+    width: 533px;
+    height: 776.1px;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+#header2:hover {
+    background-color: turquoise;
+}
 
 #buttons {
     position: relative;
@@ -117,7 +138,7 @@ a:hover{
 
 #bottom {
     position: absolute;
-    top: 1000px;
+    top: 1500px;
     z-index: 10;
 }
 

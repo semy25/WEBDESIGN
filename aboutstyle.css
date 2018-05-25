@@ -15,6 +15,17 @@ h1 {
     margin-right: 70px;
 }
 
+#profile {
+    width: 281px;
+    height: 284.8px;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+#profile:hover {
+    background-color: orange;
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -76,7 +87,7 @@ a:hover{
 
 #header {
     position: relative;
-    margin-top: 215px;
+    top: 270px;
 }
 
 .box {
@@ -90,17 +101,30 @@ a:hover{
 
 #top {
     position: relative;
-    top: -110px;
+    top: 150px;
     z-index: -10;
 }
 
+#profile {
+    border-radius: 50%;
+    border: white dotted 20px;
+    margin-top: 200px;
+}
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #intro {
-    border: solid white 5px;
+    border: solid white 8px;
     margin: auto;
-    top: -100px;
+    margin-top: 30px;
     width: 50%;
     padding: 10px;
     text-align: center;
+    font-size: 24px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -116,7 +140,8 @@ a:hover{
 
 #bottom {
     position: absolute;
-    top: 1100px;
     z-index: 10;
 }
+
+
 
