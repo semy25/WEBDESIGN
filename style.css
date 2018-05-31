@@ -80,6 +80,14 @@ a:hover{
     margin-right: auto;
 }
 
+#media {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    margin-top: 90px;
+}
+
 #header {
     position: absolute;
     margin-top: 120px;
