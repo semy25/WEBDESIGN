@@ -87,6 +87,7 @@ a:hover{
     width: 100%;
     margin-top: 90px;
     z-index: -10px;
+    border: white dotted 15px;
 }
 
 /* #header {
