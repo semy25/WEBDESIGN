@@ -84,19 +84,17 @@ a:hover{
     display: flex;
     justify-content: space-around;
     position: relative;
-    width: 100%;
+    width: 80%;
     margin-top: 90px;
     z-index: -10px;
-    border: white dotted 15px;
 }
 
-/* #header {
+#header {
     position: absolute;
     margin-top: 120px;
     margin-left: 150px;
     border: white dotted 15px;
-    z-index: -10px;
-} */
+}
 
 #header {
     width: 793.65px;
@@ -109,13 +107,12 @@ a:hover{
     background-color: orange;
 }
 
-/* #header2 {
+#header2 {
     position: absolute;
     margin-top: 40px;
     margin-left: 1000px;
     border: white dotted 15px;
-    z-index: -10px;
-} */
+}
 
 #header2 {
     width: 533px;
